@@ -3,7 +3,7 @@ package com.realtime.project.cyberfox_project;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import org.jsoup.Jsoup;
-import org.jsoup.nodes.Document;
+
 
 public class VerifyURL implements Runnable {
 	

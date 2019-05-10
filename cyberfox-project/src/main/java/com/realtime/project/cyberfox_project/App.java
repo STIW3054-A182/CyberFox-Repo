@@ -15,7 +15,7 @@ public class App {
 		int coreCount = Runtime.getRuntime().availableProcessors();
 		ExecutorService service = Executors.newFixedThreadPool(coreCount);
 		
-		File file = new File("D:\\UUM\\SEM 4\\Real-time\\URL.txt");
+		File file = new File("C:\\Users\\USER\\git\\CyberFox-Repo\\cyberfox-project\\URL.txt");
 		BufferedReader read = new BufferedReader(new FileReader(file));
 		
 		String scan;
