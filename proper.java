@@ -13,7 +13,20 @@ public class proper {
             System.out.println("Writing to the properties file ......");
             prop.setProperty("path", path);
             prop.setProperty("textFile", fileName);
-   
+            prop.setProperty("sTATE", "KEDAH");
+            prop.setProperty("sTATE2", "PERAK");
+            prop.setProperty("sTATE3", "KUALA LUMPUR");
+            prop.setProperty("sTATE4", "N.SEMBILAN");
+            prop.setProperty("sTATE5", "PULAU PINANG");
+            prop.setProperty("sTATE6", "PAHANG");
+            prop.setProperty("sTATE7", "SELANGOR");
+            prop.setProperty("sTATE8", "PUTRAJAYA");
+            prop.setProperty("sTATE9", "JOHOR");
+            prop.setProperty("sTATE10", "MELAKA");
+            prop.setProperty("sTATE11", "SARAWAK");
+            prop.setProperty("sTATE12", "SABAH");
+            prop.setProperty("sTATE13", "KELANTAN");
+            //prop.setProperty("top 3", "3");
             prop.store(output, null);
             System.out.println("Successfully saved to properties file.");
         } catch (IOException io) {
