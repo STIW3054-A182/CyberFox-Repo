@@ -13,7 +13,7 @@ class PropertiesFile {
             System.out.println("Writing to the properties file ......");
             prop.setProperty("path", path);
             prop.setProperty("textFile", fileName);
-            prop.setProperty("sTATE", "KEDAH");
+            prop.setProperty("state", "KEDAH");
             prop.setProperty("top 3", "3");
             prop.store(output, null);
             System.out.println("Successfully saved to properties file.");
@@ -28,8 +28,9 @@ class PropertiesFile {
             prop.load(input);
             System.out.println("\nReading from the properties file .....");
             // get the property value and print it out
-            System.out.println("Path      -> " + prop.getProperty("path"));
-            System.out.println("File Name -> " + prop.getProperty("textFile"));
+            System.out.println("Path      = " + prop.getProperty("path"));
+            System.out.println("File Name = " + prop.getProperty("textFile"));
+            System.out.println("State = " + prop.getProperty("state"));
         } catch (IOException ex) {
             ex.printStackTrace();
         }
