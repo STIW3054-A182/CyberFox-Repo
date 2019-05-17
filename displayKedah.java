@@ -30,7 +30,6 @@ class displayKedah {
         System.out.println("---------------------------------------------------------------------------------------------");
         for (String s : ValidURLList) {
             Document doc = Jsoup.connect(s).get();
-            // System.out.println(doc.outerHtml());
             Elements b = doc.select("div:nth-child(2)");
             for (Element header : b) {
                 Elements h2 = header.select("h2");
@@ -45,9 +44,7 @@ class displayKedah {
                         String name = row.select(" td:nth-child(4)").text();
                         String rtg = row.select("td.CRr").text();
                         String pts = row.select("td:nth-child(8)").text();
-//                        NumberFormat format = NumberFormat.getInstance(Locale.US);
-//                        Number number = format.parse(pts).doubleValue();
-//                        System.out.println(number);
+
                         if (state.contains("KEDAH")) {
                             ShowPlayer(rank, sno, name, rtg, pts, showCat);
                         }
