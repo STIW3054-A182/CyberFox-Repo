@@ -30,6 +30,7 @@ class displayKedah {
         System.out.println("---------------------------------------------------------------------------------------------");
         for (String s : ValidURLList) {
             Document doc = Jsoup.connect(s).get();
+        
             Elements b = doc.select("div:nth-child(2)");
             for (Element header : b) {
                 Elements h2 = header.select("h2");
@@ -57,7 +58,7 @@ class displayKedah {
     private void ShowPlayer(String rank, String sNo, String name, String rtg, String  replace, String showCat) {
         try (InputStream input = new FileInputStream("config.properties")) {    // load a properties file
             prop.load(input);
-            System.out.printf("\n%-5s  |  %-5s  |  %-30s | %-8s | %-8s  | %-8s | %-8s", rank, sNo, name, rtg, prop.getProperty("sTATE"), replace, showCat);
+            System.out.printf("\n%-5s  |  %-5s  |  %-30s | %-8s | %-8s  | %-8s | %-8s", rank, sNo, name, rtg, prop.getProperty("state"), replace, showCat);
         } catch (IOException ex) {
             ex.printStackTrace();
         }
