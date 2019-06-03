@@ -23,8 +23,5 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/USER/Downloads/Pictures/Compressed/CyberFox-Repo-255392/resources/commons-collections4-4.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/USER/Downloads/Pictures/Compressed/CyberFox-Repo-255392/resources/commons-lang3-3.7.jar"/>
-	<classpathentry kind="lib" path="C:/Users/USER/Downloads/Pictures/Compressed/CyberFox-Repo-255392/resources/jsoup-1.8.3.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

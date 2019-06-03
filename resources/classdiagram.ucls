@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <class-diagram version="1.2.3" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
   associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
@@ -167,4 +168,175 @@
     <operations public="true" package="true" protected="true" private="true" static="true"/>  
   </classifier-display>  
   <association-display labels="true" multiplicity="true"/>
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.3" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="com.realtime.project.maven_cyberfox_255392.logg" project="maven-cyberfox-255392" 
+    file="/maven-cyberfox-255392/src/main/java/com/realtime/project/maven_cyberfox_255392/logg.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="124" width="262" x="337" y="-2"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="com.realtime.project.maven_cyberfox_255392.table" project="maven-cyberfox-255392" 
+    file="/maven-cyberfox-255392/src/main/java/com/realtime/project/maven_cyberfox_255392/table.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="196" width="262" x="639" y="-2"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="com.realtime.project.maven_cyberfox_255392.topthreeplayer" 
+    project="maven-cyberfox-255392" 
+    file="/maven-cyberfox-255392/src/main/java/com/realtime/project/maven_cyberfox_255392/topthreeplayer.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="160" width="262" x="1334" y="-2"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="com.realtime.project.maven_cyberfox_255392.playerResult" 
+    project="maven-cyberfox-255392" 
+    file="/maven-cyberfox-255392/src/main/java/com/realtime/project/maven_cyberfox_255392/playerResult.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="160" width="262" x="1636" y="-2"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="com.realtime.project.maven_cyberfox_255392.displayKedah" 
+    project="maven-cyberfox-255392" 
+    file="/maven-cyberfox-255392/src/main/java/com/realtime/project/maven_cyberfox_255392/displayKedah.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="160" width="353" x="941" y="-2"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="com.realtime.project.maven_cyberfox_255392.winningPoint" 
+    project="maven-cyberfox-255392" 
+    file="/maven-cyberfox-255392/src/main/java/com/realtime/project/maven_cyberfox_255392/winningPoint.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="142" width="359" x="1938" y="-2"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="com.realtime.project.maven_cyberfox_255392.static_state" 
+    project="maven-cyberfox-255392" 
+    file="/maven-cyberfox-255392/src/main/java/com/realtime/project/maven_cyberfox_255392/static_state.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="376" width="273" x="2639" y="-2"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="com.realtime.project.maven_cyberfox_255392.table2" project="maven-cyberfox-255392" 
+    file="/maven-cyberfox-255392/src/main/java/com/realtime/project/maven_cyberfox_255392/table2.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="160" width="262" x="2337" y="-2"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="com.realtime.project.maven_cyberfox_255392.Dataset" 
+    project="maven-cyberfox-255392" 
+    file="/maven-cyberfox-255392/src/main/java/com/realtime/project/maven_cyberfox_255392/Dataset.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="466" width="262" x="1812" y="414"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="com.realtime.project.maven_cyberfox_255392.check" project="maven-cyberfox-255392" 
+    file="/maven-cyberfox-255392/src/main/java/com/realtime/project/maven_cyberfox_255392/check.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="106" width="262" x="2952" y="-2"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="com.realtime.project.maven_cyberfox_255392.proper" 
+    project="maven-cyberfox-255392" 
+    file="/maven-cyberfox-255392/src/main/java/com/realtime/project/maven_cyberfox_255392/proper.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="142" width="262" x="3254" y="-2"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="com.realtime.project.maven_cyberfox_255392.network" 
+    project="maven-cyberfox-255392" 
+    file="/maven-cyberfox-255392/src/main/java/com/realtime/project/maven_cyberfox_255392/network.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="160" width="262" x="3556" y="-2"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="13">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="14" name="data"/>      
+      <multiplicity id="15" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="16">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="17" name="list"/>      
+      <multiplicity id="18" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="19">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="20" name="list"/>      
+      <multiplicity id="21" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="22">    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="23" name="list"/>      
+      <multiplicity id="24" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+>>>>>>> 8bfa0c3a948945f65bc7b2ac1a4277eb7ca88b11
 </class-diagram>

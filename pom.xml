@@ -10,6 +10,8 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
+				 <version>2.3.2</version>
+ 
                 <configuration>
                     <source>8</source>
                     <target>8</target>
@@ -28,11 +30,19 @@
 
   <dependencies>
   
-    <dependency>
-    <groupId>org.jsoup</groupId>
-    <artifactId>jsoup</artifactId>
-    <version>1.8.3</version>
-  </dependency>
+
+ 		<dependency>
+            <groupId>org.jsoup</groupId>
+            <artifactId>jsoup</artifactId>
+            <version>1.9.1</version>
+        </dependency>
+        
+  <dependency>
+    <groupId>org.apache.commons</groupId>
+    <artifactId>commons-lang3</artifactId>
+    <version>3.9</version>
+</dependency>
+        
   
 <dependency>
     <groupId>org.apache.commons</groupId>
