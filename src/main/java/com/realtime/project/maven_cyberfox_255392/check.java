@@ -18,7 +18,7 @@ public static void main(String[] args) throws Exception {
     int coreCount = Runtime.getRuntime().availableProcessors();
     ExecutorService executorservice = Executors.newFixedThreadPool(coreCount);
 
-    Path filePath = Paths.get("C:\\Users\\USER\\Downloads\\Pictures\\Compressed\\CyberFox-Repo-255392\\resources\\URL.txt"); 
+    Path filePath = Paths.get("src\\main\\resources\\URL.txt");
     String path = String.valueOf(filePath.getParent());
     String fileName = String.valueOf(filePath.getFileName());
     
